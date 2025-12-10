@@ -1,39 +1,13 @@
 # Notebooks
 
-> **Note**: This README was generated with GitHub Copilot. The content below describes goals and best practices for this directory.
+> **Note**: Parts of this README was generated with GitHub Copilot, like the overall outline and common commands, best practices
 
-Interactive Jupyter notebooks for learning and demonstrating concepts through code, visualizations, and detailed explanations.
+Using this repo as a learning tool for dense topics like math and data science, while also learning how to work with Jupyter Notebooks. 
 
 ## Overview
+This is serving as a sort of "cheat sheet" for me when I'm working in this repo. Notebooks will largely be oriented around topics that interest me like math and ml engineering.
 
-This directory is organized to contain educational notebooks by subject area. Each notebook aims to be self-contained, providing both theoretical background and practical implementations. This is also serving as a sort of "cheat sheet" for me when I'm working in this repo
-
-## Topics
-
-### [data_science/](data_science/)
-Practical data science techniques and workflows:
-- **analysis/**: Exploratory data analysis (EDA) techniques and patterns
-- **feature_engineering/**: Feature creation, transformation, and selection methods
-- **performance_profiling/**: Code optimization and performance analysis
-- **statistics/**: Statistical methods and hypothesis testing
-- **visualization/**: Data visualization techniques using matplotlib, seaborn, plotly, etc.
-
-### [math/](math/)
-Mathematical foundations for computer science and machine learning:
-- **calculus/**: Derivatives, integrals, and applications
-- **linear_algebra/**: Vectors, matrices, eigenvalues, and transformations
-- **misc/**: Various mathematical topics and explorations
-- **optimization/**: Optimization algorithms and techniques
-- **probability/**: Probability theory, distributions, and statistical inference
-
-### [ml/](ml/)
-Machine learning concepts from basics to advanced topics:
-- **deep_learning/**: Neural networks, CNNs, RNNs, transformers, and advanced architectures
-- **fundamentals/**: Core ML concepts, algorithms, and model evaluation
-- **generative_models/**: GANs, VAEs, diffusion models, and other generative approaches
-- **rag_llm/**: Retrieval-Augmented Generation and Large Language Model applications
-
-## Notebook Philosophy
+## Notebook Philosophy tips
 
 Each notebook follows these principles:
 1. **Theory First**: Explain the concept with mathematical foundations where applicable
@@ -63,11 +37,6 @@ jupyter notebook
 jupyter lab
 ```
 
-### VS Code Integration
-- Install the Jupyter extension for VS Code
-- Open any `.ipynb` file to start the interactive notebook experience
-- Run cells individually or all at once
-
 ## Best Practices cheat sheet
 
 ### Notebook Structure
@@ -88,17 +57,3 @@ jupyter lab
 - Include mathematical notation using LaTeX: `$f(x) = ax^2 + bx + c$`
 - Reference sources and further reading materials
 - Document assumptions and limitations
-
-## Helpful links
-
-- [Jupyter Documentation](https://jupyter.org/documentation)
-- [Markdown Guide](https://www.markdownguide.org/)
-- [LaTeX Math Symbols](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols)
-
-## Tips
-
-- Use `%matplotlib inline` for inline plots
-- Use `%%time` to measure cell execution time
-- Save checkpoints frequently
-- Clear output before committing to version control
-- Consider converting important notebooks to scripts for reuse

@@ -1,29 +1,13 @@
 # LearningLabs
-
-> **Note**: This README was generated with GitHub Copilot. The structure and guidelines described here represent goals and aspirations for this learning repository.
-
-A comprehensive learning repository for exploring concepts in computer science, mathematics, machine learning, and software development through hands-on experimentation and interactive notebooks. That is the goal at least!
+This is my repository for learning different topics through study and, ideally, building stuff based on what I've been learning. My hope is to use this repository as a sort of accountability tool.
 
 ## Repository Structure
 
 ### [notebooks/](notebooks/)
-Interactive Jupyter notebooks for understanding and demonstrating fundamental concepts across various domains:
-- **data_science/**: Data analysis, visualization, feature engineering, and statistical methods
-- **math/**: Mathematical foundations including calculus, linear algebra, probability, and optimization
-- **ml/**: Machine learning concepts from fundamentals to deep learning and generative models
+Repo for learning Jupyter Notebooks, and using them to explain different areas I end up studying, like algebra or neural networks and stuff
 
 ### [projects/](projects/)
-Full-featured applications and projects for applying learned concepts:
-- Working implementations of real-world applications
-- Integration of multiple technologies and frameworks
-- Production-ready code examples
+Building working apps using different tools I am interested in learning, or scaling up sandbox experiments I find interesting
 
 ### [sandbox/](sandbox/)
-Experimental workspace for testing new ideas, technologies, and concepts:
-- Quick prototypes and proof-of-concepts
-- Learning new frameworks and libraries
-- Testing ground for experimental features
-
-## Purpose
-
-This repository is to track my own learning progress on topics that interest me, and to serve as a sort of inherent accountability tool
+Place for experiments that are meant to focus on one or two small things, don't have to be perfect
